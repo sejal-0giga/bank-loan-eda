@@ -1,57 +1,107 @@
 # bank-loan-eda
 Bank Loan Default Risk Analysis using Python
-# Bank Loan Default Risk Analysis (Python EDA)
+# -------------------------
+# 1. IMPORT LIBRARIES
+# -------------------------
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
 
-## 📌 Project Overview
-This project focuses on analysing bank loan data to understand approval trends and default risk.  
-EDA is performed using **Python (Pandas, NumPy, Matplotlib)**.
+# For better display (optional)
+pd.set_option('display.max_columns', None)
 
-## 🎯 Objectives
-- Analyse loan approval vs rejection patterns  
-- Study default behaviour across credit scores  
-- Compare risk between salaried and self-employed customers  
-- Explore regional (property area) level risk  
-- Understand relationship between income and loan amount  
+# -------------------------
+# 2. LOAD DATA
+# -------------------------
+df = pd.read_csv("C:/Users/Sejal/Downloads/bank_loan_dataset.csv")
+df.head()
 
-## 📂 Dataset
-- 500 rows, 14 columns
-- Key columns:
-  - `Age`, `Annual_Income`, `Loan_Amount`, `Loan_Tenure`
-  - `Gender`, `Marital_Status`, `Employment_Type`
-  - `Credit_Score`, `Property_Area`
-  - `Loan_Status` (Approved / Rejected)
-  - `Default_Flag` (Yes / No)
+# -------------------------
+# 3. BASIC INFO
+# -------------------------
+df.shape          # rows, columns
+df.info()         # data types & non-null counts
+df.columns        # column names
 
-## 🛠 Tech Stack
-- Python
-- Pandas, NumPy
-- Matplotlib
-- Jupyter Notebook
+# -------------------------
+# 4. MISSING VALUES CHECK
+# -------------------------
+df.isnull().sum()
 
-## 🔍 Key EDA Steps
-1. Data loading and structure understanding  
-2. Missing value and data type checks  
-3. Summary statistics for numeric features  
-4. Loan approval vs rejection analysis  
-5. Default analysis by:
-   - Credit Score  
-   - Employment Type  
-   - Property Area  
-6. Income vs Loan Amount scatter analysis  
+# -------------------------
+# 5. SUMMARY STATISTICS
+# -------------------------
+df.describe()   # only numerical columns
 
-## 📊 Insights Summary
-- Loan approval rate is around ~52%, rejections ~48%, indicating a balanced risk policy.
-- Customers with **Credit Score C** show the highest number of defaults.
-- **Self-employed** customers have a slightly higher default count compared to salaried.
-- Defaults are relatively higher in **Urban and Semi-Urban** property areas.
-- Income and loan amount show a weak positive correlation; some low-income customers still receive high loan amounts, indicating potential risk.
+# -------------------------
+# 6. LOAN STATUS ANALYSIS
+# -------------------------
+df['Loan_Status'].value_counts()
 
-## 🚀 How to Run
-1. Clone the repository  
-2. Place `bank_loan_dataset.csv` in the project folder  
-3. Open Jupyter Notebook  
-4. Run `bank_loan_eda.ipynb` cell by cell  
+plt.figure(figsize=(6,6))
+df['Loan_Status'].value_counts().plot(kind='pie', autopct='%1.1f%%')
+plt.title("Loan Approval vs Rejection")
+plt.ylabel("")
+plt.show()
 
-## 📌 Future Work
-- Build a classification model to predict loan default  
-- Add interactive dashboards using Power BI / Streamlit
+# -------------------------
+# 7. CREDIT SCORE VS DEFAULT
+# -------------------------
+credit_default = (
+    df.groupby("Credit_Score")["Default_Flag"]
+      .value_counts()
+      .unstack()
+      .fillna(0)
+)
+print(credit_default)
+
+credit_default[["Yes"]].plot(kind="bar")
+plt.title("Defaults by Credit Score")
+plt.xlabel("Credit Score")
+plt.ylabel("Number of Defaults")
+plt.show()
+
+# -------------------------
+# 8. EMPLOYMENT TYPE VS DEFAULT
+# -------------------------
+emp_default = (
+    df.groupby("Employment_Type")["Default_Flag"]
+      .value_counts()
+      .unstack()
+      .fillna(0)
+)
+print(emp_default)
+
+emp_default[["Yes"]].plot(kind="bar")
+plt.title("Defaults by Employment Type")
+plt.xlabel("Employment Type")
+plt.ylabel("Number of Defaults")
+plt.show()
+
+# -------------------------
+# 9. PROPERTY AREA VS DEFAULT
+# -------------------------
+area_default = (
+    df.groupby("Property_Area")["Default_Flag"]
+      .value_counts()
+      .unstack()
+      .fillna(0)
+)
+print(area_default)
+
+area_default[["Yes"]].plot(kind="bar")
+plt.title("Defaults by Property Area")
+plt.xlabel("Property Area")
+plt.ylabel("Number of Defaults")
+plt.show()
+
+# -------------------------
+# 10. INCOME VS LOAN AMOUNT
+# -------------------------
+df[['Annual_Income', 'Loan_Amount']].corr()  # check correlation
+
+plt.scatter(df['Annual_Income'], df['Loan_Amount'])
+plt.title("Income vs Loan Amount")
+plt.xlabel("Annual Income")
+plt.ylabel("Loan Amount")
+plt.show()
