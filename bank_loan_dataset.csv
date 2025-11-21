@@ -1,0 +1,501 @@
+Loan_ID,Age,Gender,Marital_Status,Dependents,Education,Employment_Type,Annual_Income,Loan_Amount,Loan_Tenure,Credit_Score,Property_Area,Loan_Status,Default_Flag
+LN0000,59,Male,Single,2,Graduate,Salaried,324982,592601,24,B,Semi-Urban,Rejected,Yes
+LN0001,49,Female,Single,3+,Graduate,Self-Employed,1505487,1213490,36,B,Urban,Rejected,Yes
+LN0002,35,Female,Single,2,Not Graduate,Salaried,1317195,597993,12,D,Urban,Rejected,Yes
+LN0003,63,Male,Single,2,Not Graduate,Salaried,1933264,153892,12,B,Urban,Approved,No
+LN0004,28,Female,Single,2,Not Graduate,Salaried,508623,1362743,72,B,Rural,Rejected,No
+LN0005,41,Male,Married,0,Not Graduate,Salaried,1750219,693942,72,A,Urban,Rejected,Yes
+LN0006,59,Male,Single,3+,Graduate,Self-Employed,1399751,1289444,72,C,Urban,Approved,Yes
+LN0007,39,Male,Single,1,Not Graduate,Self-Employed,370963,1178649,12,D,Rural,Approved,Yes
+LN0008,43,Female,Married,0,Not Graduate,Salaried,1390402,154195,24,B,Rural,Approved,No
+LN0009,31,Female,Single,2,Graduate,Salaried,1067869,766987,12,D,Urban,Approved,No
+LN0010,31,Male,Married,0,Not Graduate,Salaried,1347116,1132424,60,A,Urban,Approved,Yes
+LN0011,44,Male,Married,2,Graduate,Salaried,1059414,982883,48,B,Urban,Rejected,Yes
+LN0012,56,Male,Married,2,Graduate,Salaried,1875611,1388486,72,A,Urban,Rejected,No
+LN0013,60,Male,Single,0,Graduate,Self-Employed,386994,1076630,24,D,Semi-Urban,Rejected,Yes
+LN0014,44,Female,Single,3+,Not Graduate,Self-Employed,510375,118099,36,A,Semi-Urban,Approved,No
+LN0015,23,Female,Single,2,Not Graduate,Self-Employed,229301,1062237,36,D,Urban,Approved,No
+LN0016,42,Male,Married,3+,Graduate,Self-Employed,1471300,1167698,48,A,Semi-Urban,Approved,Yes
+LN0017,22,Male,Single,1,Not Graduate,Salaried,1762579,623156,24,D,Rural,Rejected,No
+LN0018,44,Female,Single,2,Not Graduate,Salaried,1244327,1367363,12,C,Semi-Urban,Rejected,Yes
+LN0019,64,Female,Single,3+,Graduate,Salaried,393783,536275,12,A,Semi-Urban,Approved,Yes
+LN0020,50,Male,Married,3+,Graduate,Salaried,1945259,348871,60,A,Urban,Rejected,Yes
+LN0021,58,Male,Married,1,Not Graduate,Salaried,218752,1207655,60,C,Semi-Urban,Approved,Yes
+LN0022,22,Male,Single,3+,Graduate,Self-Employed,1215416,902129,12,C,Semi-Urban,Rejected,Yes
+LN0023,41,Female,Single,3+,Not Graduate,Salaried,937565,1114605,36,A,Semi-Urban,Rejected,Yes
+LN0024,53,Female,Single,1,Not Graduate,Self-Employed,868755,1344929,72,C,Semi-Urban,Rejected,No
+LN0025,32,Female,Single,2,Not Graduate,Self-Employed,417029,457442,36,B,Rural,Approved,No
+LN0026,42,Male,Married,3+,Not Graduate,Self-Employed,1107669,1293294,60,D,Urban,Rejected,No
+LN0027,64,Male,Married,3+,Graduate,Self-Employed,1304849,1470178,48,D,Urban,Rejected,No
+LN0028,45,Female,Married,3+,Graduate,Salaried,1507079,946816,12,D,Rural,Approved,Yes
+LN0029,47,Female,Married,0,Graduate,Self-Employed,1864742,1167502,60,B,Semi-Urban,Rejected,No
+LN0030,62,Male,Single,1,Graduate,Self-Employed,1368544,367650,60,C,Rural,Approved,No
+LN0031,48,Female,Single,0,Not Graduate,Self-Employed,577844,493031,72,C,Semi-Urban,Approved,No
+LN0032,36,Female,Single,1,Not Graduate,Salaried,1849423,1140668,12,A,Rural,Approved,Yes
+LN0033,35,Male,Married,2,Graduate,Salaried,210699,1423259,72,C,Urban,Approved,No
+LN0034,64,Female,Single,2,Not Graduate,Salaried,1444709,1033581,12,A,Urban,Approved,Yes
+LN0035,23,Male,Married,3+,Not Graduate,Self-Employed,734003,202889,72,B,Urban,Rejected,No
+LN0036,57,Male,Married,1,Not Graduate,Self-Employed,1267745,743221,36,D,Semi-Urban,Approved,Yes
+LN0037,27,Male,Single,2,Graduate,Salaried,718652,225006,48,D,Semi-Urban,Approved,Yes
+LN0038,41,Male,Single,1,Graduate,Self-Employed,318413,819727,48,D,Rural,Approved,No
+LN0039,29,Male,Single,2,Graduate,Salaried,1892128,1239906,12,C,Rural,Approved,Yes
+LN0040,59,Male,Married,0,Not Graduate,Salaried,1516502,1156351,24,A,Urban,Rejected,Yes
+LN0041,38,Male,Single,2,Graduate,Self-Employed,1992113,1366189,60,A,Semi-Urban,Approved,No
+LN0042,24,Female,Married,0,Graduate,Self-Employed,1771564,340998,60,B,Rural,Rejected,No
+LN0043,45,Male,Single,2,Graduate,Self-Employed,1373057,711616,12,C,Semi-Urban,Approved,No
+LN0044,34,Male,Married,3+,Graduate,Self-Employed,415400,126256,72,B,Semi-Urban,Rejected,Yes
+LN0045,29,Female,Married,0,Graduate,Salaried,1232532,1001441,24,A,Urban,Approved,Yes
+LN0046,46,Female,Single,2,Graduate,Salaried,759873,1459854,36,A,Urban,Approved,Yes
+LN0047,22,Female,Married,3+,Not Graduate,Salaried,1427512,231360,72,D,Semi-Urban,Rejected,No
+LN0048,40,Male,Married,0,Not Graduate,Salaried,592136,396874,72,C,Semi-Urban,Approved,Yes
+LN0049,48,Female,Single,3+,Graduate,Salaried,1696906,468267,12,A,Semi-Urban,Rejected,Yes
+LN0050,27,Male,Married,1,Graduate,Self-Employed,589954,1388106,12,D,Semi-Urban,Approved,Yes
+LN0051,64,Male,Single,1,Not Graduate,Salaried,238067,1341210,60,C,Urban,Rejected,Yes
+LN0052,28,Male,Married,0,Not Graduate,Salaried,1946621,983688,12,B,Rural,Approved,Yes
+LN0053,55,Male,Single,2,Graduate,Salaried,218073,83787,12,C,Urban,Approved,Yes
+LN0054,34,Female,Single,0,Graduate,Self-Employed,236035,595909,12,C,Rural,Rejected,Yes
+LN0055,37,Female,Married,3+,Graduate,Self-Employed,1444625,652272,60,A,Semi-Urban,Approved,No
+LN0056,56,Male,Married,2,Graduate,Self-Employed,433782,361955,36,A,Rural,Approved,No
+LN0057,60,Male,Married,1,Not Graduate,Self-Employed,814661,80447,36,C,Urban,Approved,No
+LN0058,24,Male,Married,2,Graduate,Salaried,814805,178046,12,A,Urban,Approved,Yes
+LN0059,22,Female,Married,1,Graduate,Salaried,1838314,789290,60,A,Semi-Urban,Approved,Yes
+LN0060,26,Male,Single,2,Graduate,Self-Employed,1783246,1067541,36,A,Urban,Approved,No
+LN0061,62,Male,Married,2,Graduate,Self-Employed,926331,691147,72,D,Semi-Urban,Rejected,Yes
+LN0062,24,Female,Single,2,Not Graduate,Salaried,1706404,238490,36,D,Urban,Rejected,No
+LN0063,49,Female,Single,3+,Not Graduate,Salaried,1994291,1082038,36,C,Urban,Rejected,Yes
+LN0064,38,Male,Married,3+,Not Graduate,Self-Employed,261929,457688,60,A,Semi-Urban,Approved,Yes
+LN0065,46,Female,Single,0,Graduate,Self-Employed,957771,554409,72,D,Rural,Rejected,No
+LN0066,64,Female,Single,0,Graduate,Self-Employed,1085296,1336980,60,C,Urban,Approved,No
+LN0067,54,Male,Single,1,Not Graduate,Self-Employed,867689,566595,12,A,Rural,Approved,No
+LN0068,30,Female,Single,3+,Graduate,Salaried,980965,713689,48,B,Urban,Approved,No
+LN0069,56,Male,Married,1,Graduate,Salaried,487313,215937,36,A,Urban,Approved,No
+LN0070,34,Female,Single,0,Not Graduate,Salaried,287468,1145426,48,A,Urban,Rejected,Yes
+LN0071,51,Male,Married,1,Not Graduate,Self-Employed,1283170,1414940,60,D,Urban,Approved,Yes
+LN0072,35,Male,Married,0,Not Graduate,Self-Employed,391703,293306,60,C,Rural,Rejected,Yes
+LN0073,28,Male,Single,3+,Not Graduate,Salaried,1293609,1192384,60,C,Rural,Approved,No
+LN0074,34,Female,Married,2,Graduate,Salaried,1835997,711757,48,D,Urban,Rejected,No
+LN0075,43,Male,Married,3+,Graduate,Salaried,1190669,278981,60,A,Urban,Rejected,No
+LN0076,60,Female,Married,1,Not Graduate,Salaried,1322437,572220,12,B,Rural,Rejected,No
+LN0077,41,Male,Single,1,Graduate,Self-Employed,907650,103072,60,A,Semi-Urban,Rejected,No
+LN0078,36,Male,Married,3+,Not Graduate,Salaried,493894,1121860,24,A,Semi-Urban,Rejected,No
+LN0079,38,Female,Married,3+,Not Graduate,Salaried,1813325,133369,48,B,Rural,Rejected,Yes
+LN0080,44,Male,Married,0,Graduate,Salaried,1715592,861554,24,D,Urban,Approved,Yes
+LN0081,46,Male,Single,1,Not Graduate,Salaried,1326798,787266,60,C,Urban,Rejected,Yes
+LN0082,45,Female,Married,1,Graduate,Salaried,836308,637100,12,D,Semi-Urban,Approved,Yes
+LN0083,61,Male,Single,3+,Graduate,Salaried,993153,1368719,36,D,Semi-Urban,Rejected,Yes
+LN0084,49,Male,Single,2,Graduate,Salaried,744897,334580,72,A,Rural,Approved,No
+LN0085,35,Male,Single,1,Graduate,Self-Employed,1903377,573156,72,C,Semi-Urban,Rejected,No
+LN0086,21,Male,Single,2,Not Graduate,Self-Employed,1452557,819097,60,C,Rural,Rejected,No
+LN0087,45,Female,Single,3+,Graduate,Self-Employed,304211,302164,12,D,Semi-Urban,Approved,No
+LN0088,27,Female,Single,3+,Not Graduate,Self-Employed,1434897,819605,48,B,Semi-Urban,Rejected,No
+LN0089,29,Male,Married,0,Not Graduate,Salaried,1690687,1386921,24,D,Semi-Urban,Rejected,No
+LN0090,44,Female,Single,1,Not Graduate,Self-Employed,687689,200787,24,B,Urban,Rejected,Yes
+LN0091,21,Male,Married,2,Not Graduate,Self-Employed,1123160,210381,24,C,Urban,Approved,No
+LN0092,64,Female,Married,0,Graduate,Salaried,1060952,499830,48,D,Urban,Rejected,No
+LN0093,28,Male,Single,1,Graduate,Salaried,1705532,954098,72,A,Semi-Urban,Approved,No
+LN0094,44,Male,Married,0,Not Graduate,Self-Employed,1050741,1455568,12,D,Rural,Rejected,No
+LN0095,31,Male,Married,3+,Not Graduate,Self-Employed,1278560,118920,48,C,Rural,Rejected,Yes
+LN0096,37,Male,Married,1,Graduate,Salaried,1891811,880051,24,A,Rural,Approved,Yes
+LN0097,28,Male,Married,0,Not Graduate,Self-Employed,1977758,700024,60,A,Rural,Rejected,No
+LN0098,55,Male,Single,0,Graduate,Salaried,1254477,980997,36,B,Urban,Rejected,Yes
+LN0099,55,Female,Married,2,Not Graduate,Salaried,362624,591357,48,A,Urban,Approved,Yes
+LN0100,53,Male,Single,0,Graduate,Salaried,1470893,57531,48,A,Semi-Urban,Rejected,No
+LN0101,25,Female,Married,1,Not Graduate,Salaried,1541775,480267,12,D,Semi-Urban,Approved,No
+LN0102,62,Male,Married,1,Not Graduate,Self-Employed,893045,1165731,12,C,Rural,Approved,No
+LN0103,59,Female,Single,2,Graduate,Salaried,1191469,981479,48,B,Urban,Approved,No
+LN0104,61,Female,Married,1,Not Graduate,Salaried,345788,357747,24,D,Rural,Rejected,No
+LN0105,48,Female,Married,3+,Not Graduate,Self-Employed,838387,990756,36,A,Semi-Urban,Approved,Yes
+LN0106,27,Male,Married,1,Graduate,Salaried,735426,524013,12,A,Semi-Urban,Approved,No
+LN0107,29,Male,Single,1,Not Graduate,Self-Employed,890658,182503,24,B,Rural,Rejected,No
+LN0108,28,Female,Married,0,Graduate,Self-Employed,1168616,742841,60,C,Semi-Urban,Approved,No
+LN0109,32,Male,Single,0,Graduate,Self-Employed,223429,714917,12,B,Rural,Rejected,Yes
+LN0110,54,Female,Married,1,Not Graduate,Salaried,1823064,1464022,24,D,Urban,Rejected,No
+LN0111,53,Male,Single,2,Not Graduate,Self-Employed,1450956,1002246,24,B,Rural,Rejected,No
+LN0112,43,Female,Single,0,Not Graduate,Self-Employed,1690036,69675,36,A,Urban,Rejected,No
+LN0113,44,Female,Married,2,Not Graduate,Salaried,972577,123997,36,D,Urban,Approved,Yes
+LN0114,57,Male,Married,1,Not Graduate,Self-Employed,1493703,198087,60,A,Semi-Urban,Approved,No
+LN0115,55,Female,Single,1,Not Graduate,Self-Employed,1087700,1017561,24,C,Semi-Urban,Approved,No
+LN0116,64,Male,Single,3+,Not Graduate,Self-Employed,1265923,536799,72,A,Semi-Urban,Approved,No
+LN0117,60,Female,Married,0,Graduate,Self-Employed,1920856,569349,24,A,Rural,Approved,Yes
+LN0118,42,Female,Single,1,Not Graduate,Self-Employed,756110,805678,36,B,Rural,Rejected,No
+LN0119,47,Male,Married,3+,Graduate,Salaried,1164163,190905,72,A,Semi-Urban,Approved,No
+LN0120,55,Male,Married,0,Not Graduate,Self-Employed,1812972,320040,12,D,Rural,Approved,No
+LN0121,21,Male,Married,1,Not Graduate,Self-Employed,1115387,361877,12,D,Semi-Urban,Approved,Yes
+LN0122,55,Female,Married,1,Graduate,Salaried,1730891,616088,48,C,Rural,Rejected,No
+LN0123,57,Male,Single,0,Not Graduate,Salaried,207967,1194620,36,D,Urban,Rejected,No
+LN0124,34,Female,Married,0,Not Graduate,Salaried,1784735,317491,48,B,Urban,Approved,No
+LN0125,23,Female,Single,0,Graduate,Self-Employed,425371,539066,72,C,Semi-Urban,Rejected,Yes
+LN0126,21,Male,Married,1,Not Graduate,Salaried,1457100,708003,36,D,Rural,Approved,Yes
+LN0127,25,Male,Single,1,Not Graduate,Self-Employed,1978206,352929,60,B,Rural,Approved,No
+LN0128,46,Female,Married,3+,Not Graduate,Self-Employed,1413261,855113,24,D,Urban,Rejected,Yes
+LN0129,34,Female,Single,2,Graduate,Salaried,752467,416008,60,D,Urban,Rejected,Yes
+LN0130,59,Male,Single,0,Not Graduate,Salaried,451537,983396,72,A,Semi-Urban,Approved,Yes
+LN0131,47,Male,Married,1,Not Graduate,Self-Employed,1956124,883731,36,D,Urban,Approved,No
+LN0132,29,Male,Married,1,Not Graduate,Salaried,1041531,1115649,72,D,Semi-Urban,Rejected,No
+LN0133,35,Male,Married,0,Not Graduate,Self-Employed,1808126,803158,24,B,Urban,Approved,Yes
+LN0134,35,Male,Married,2,Graduate,Salaried,1064645,165359,12,B,Urban,Rejected,Yes
+LN0135,46,Female,Single,0,Graduate,Salaried,1628127,975431,12,A,Rural,Approved,Yes
+LN0136,62,Female,Married,2,Not Graduate,Salaried,1135772,116707,72,D,Urban,Rejected,No
+LN0137,33,Female,Single,1,Not Graduate,Self-Employed,671082,301351,48,A,Urban,Approved,No
+LN0138,52,Female,Single,2,Graduate,Salaried,260545,520670,36,D,Semi-Urban,Approved,Yes
+LN0139,59,Male,Married,3+,Graduate,Self-Employed,1483131,1337087,36,C,Urban,Rejected,Yes
+LN0140,52,Male,Single,1,Not Graduate,Self-Employed,423894,1334294,12,C,Semi-Urban,Approved,Yes
+LN0141,24,Male,Single,3+,Graduate,Self-Employed,927506,100601,60,A,Urban,Approved,Yes
+LN0142,50,Female,Single,0,Not Graduate,Self-Employed,1189470,1044969,24,A,Urban,Rejected,No
+LN0143,57,Female,Single,0,Graduate,Salaried,1550642,1494331,60,A,Semi-Urban,Approved,Yes
+LN0144,43,Male,Married,0,Graduate,Self-Employed,1815777,545479,60,B,Rural,Approved,No
+LN0145,59,Male,Married,2,Graduate,Self-Employed,1607753,301924,72,B,Semi-Urban,Approved,Yes
+LN0146,35,Female,Married,1,Graduate,Salaried,1615512,833441,12,B,Semi-Urban,Rejected,Yes
+LN0147,63,Female,Married,0,Not Graduate,Self-Employed,450497,299430,12,A,Semi-Urban,Rejected,Yes
+LN0148,49,Male,Single,0,Graduate,Salaried,1173181,1221364,12,D,Rural,Rejected,Yes
+LN0149,56,Male,Single,1,Graduate,Self-Employed,1219658,330466,72,C,Urban,Approved,Yes
+LN0150,33,Female,Married,0,Not Graduate,Salaried,1691633,500930,48,A,Semi-Urban,Approved,No
+LN0151,52,Male,Married,3+,Graduate,Self-Employed,901692,1448616,60,B,Semi-Urban,Approved,Yes
+LN0152,27,Male,Married,1,Graduate,Salaried,1733854,1160868,72,B,Rural,Approved,Yes
+LN0153,42,Male,Single,1,Not Graduate,Self-Employed,1106295,603343,36,A,Semi-Urban,Rejected,Yes
+LN0154,48,Female,Married,1,Graduate,Self-Employed,1404680,355035,24,A,Urban,Approved,No
+LN0155,22,Female,Married,3+,Not Graduate,Salaried,893206,1451256,48,B,Rural,Approved,No
+LN0156,62,Female,Married,1,Not Graduate,Salaried,1963410,318448,36,D,Urban,Approved,No
+LN0157,26,Female,Single,3+,Not Graduate,Salaried,1293512,1258948,60,B,Urban,Rejected,No
+LN0158,48,Female,Single,1,Not Graduate,Salaried,885154,991763,12,B,Rural,Approved,Yes
+LN0159,48,Female,Single,2,Graduate,Self-Employed,1965524,141006,60,A,Semi-Urban,Approved,Yes
+LN0160,64,Female,Single,0,Not Graduate,Self-Employed,1450632,179350,72,D,Urban,Approved,Yes
+LN0161,64,Male,Single,2,Graduate,Salaried,425469,738725,24,B,Urban,Approved,No
+LN0162,40,Male,Single,0,Graduate,Self-Employed,1276717,855878,72,B,Urban,Approved,Yes
+LN0163,50,Male,Single,3+,Graduate,Salaried,337478,838768,48,C,Urban,Rejected,Yes
+LN0164,31,Male,Single,2,Graduate,Salaried,1345935,256487,48,A,Rural,Approved,No
+LN0165,48,Male,Married,1,Graduate,Self-Employed,1109711,147852,24,C,Rural,Approved,No
+LN0166,45,Male,Married,0,Graduate,Self-Employed,1402939,1237169,36,C,Urban,Approved,No
+LN0167,59,Male,Single,0,Graduate,Self-Employed,1814432,777067,36,B,Semi-Urban,Approved,Yes
+LN0168,53,Female,Single,2,Graduate,Self-Employed,821827,728841,48,A,Urban,Approved,Yes
+LN0169,21,Female,Married,3+,Graduate,Self-Employed,1819715,330618,48,D,Semi-Urban,Approved,No
+LN0170,47,Male,Single,2,Graduate,Self-Employed,693158,1276408,12,B,Urban,Approved,Yes
+LN0171,33,Male,Single,3+,Not Graduate,Self-Employed,1827687,892150,36,D,Semi-Urban,Approved,No
+LN0172,61,Female,Single,3+,Not Graduate,Salaried,223312,1405349,24,D,Urban,Approved,No
+LN0173,23,Male,Married,0,Not Graduate,Salaried,1160612,95232,36,A,Semi-Urban,Approved,Yes
+LN0174,59,Male,Married,2,Graduate,Salaried,627387,398688,12,C,Urban,Rejected,No
+LN0175,26,Female,Married,2,Not Graduate,Salaried,634995,510385,72,A,Urban,Rejected,No
+LN0176,28,Male,Married,3+,Not Graduate,Salaried,1972764,833301,48,D,Semi-Urban,Rejected,No
+LN0177,47,Female,Married,2,Not Graduate,Self-Employed,1749107,362813,48,B,Rural,Rejected,Yes
+LN0178,29,Male,Single,1,Graduate,Salaried,998843,1307669,12,D,Semi-Urban,Approved,No
+LN0179,57,Female,Married,1,Graduate,Salaried,1744613,1076657,24,B,Rural,Rejected,No
+LN0180,53,Female,Single,2,Graduate,Salaried,1497638,1429904,48,B,Urban,Rejected,No
+LN0181,62,Female,Single,2,Graduate,Salaried,1043441,1111716,60,A,Semi-Urban,Approved,No
+LN0182,64,Male,Married,3+,Not Graduate,Salaried,1657214,1487188,48,D,Semi-Urban,Rejected,No
+LN0183,44,Female,Married,1,Not Graduate,Salaried,635684,588645,60,C,Semi-Urban,Rejected,No
+LN0184,35,Male,Single,1,Not Graduate,Salaried,1805235,1210248,12,D,Rural,Approved,No
+LN0185,52,Male,Single,0,Not Graduate,Self-Employed,257022,380817,12,D,Rural,Approved,Yes
+LN0186,52,Male,Single,3+,Graduate,Self-Employed,533373,782303,48,C,Urban,Approved,Yes
+LN0187,44,Male,Married,0,Graduate,Salaried,1347647,670399,36,A,Rural,Rejected,No
+LN0188,61,Female,Married,1,Graduate,Self-Employed,1430844,914690,60,D,Rural,Rejected,Yes
+LN0189,32,Female,Married,3+,Not Graduate,Self-Employed,1197858,456140,24,D,Urban,Approved,Yes
+LN0190,59,Male,Married,2,Graduate,Self-Employed,558918,1167862,48,B,Semi-Urban,Approved,No
+LN0191,22,Male,Married,3+,Graduate,Self-Employed,689626,143269,24,D,Semi-Urban,Rejected,Yes
+LN0192,23,Female,Single,2,Not Graduate,Salaried,488859,308635,48,C,Urban,Approved,No
+LN0193,57,Male,Married,2,Not Graduate,Self-Employed,1014037,1172647,36,B,Semi-Urban,Rejected,No
+LN0194,37,Female,Single,3+,Graduate,Self-Employed,1872717,1319671,36,A,Rural,Approved,No
+LN0195,22,Male,Single,2,Graduate,Self-Employed,755462,563317,36,B,Urban,Approved,No
+LN0196,22,Male,Single,0,Graduate,Salaried,1127460,1129227,72,C,Urban,Rejected,No
+LN0197,48,Female,Married,1,Graduate,Salaried,1746236,120202,36,C,Urban,Approved,Yes
+LN0198,43,Male,Married,2,Graduate,Salaried,1324949,1147353,12,B,Semi-Urban,Approved,No
+LN0199,57,Female,Married,0,Graduate,Salaried,1441597,198066,12,A,Urban,Approved,Yes
+LN0200,52,Male,Single,2,Not Graduate,Salaried,393718,903695,72,B,Urban,Rejected,No
+LN0201,53,Male,Single,1,Not Graduate,Salaried,794305,240706,60,A,Urban,Approved,No
+LN0202,21,Male,Single,0,Not Graduate,Salaried,263037,674446,24,B,Semi-Urban,Approved,No
+LN0203,39,Female,Single,1,Graduate,Self-Employed,1862682,847232,48,C,Rural,Approved,Yes
+LN0204,22,Male,Single,1,Not Graduate,Self-Employed,730836,874255,48,D,Urban,Approved,No
+LN0205,64,Male,Single,0,Graduate,Self-Employed,841269,1424598,72,D,Rural,Approved,No
+LN0206,46,Male,Married,0,Graduate,Salaried,1482789,330852,12,A,Semi-Urban,Approved,No
+LN0207,52,Male,Married,0,Not Graduate,Salaried,404366,718179,48,A,Semi-Urban,Rejected,No
+LN0208,26,Female,Married,3+,Graduate,Salaried,702420,638158,12,A,Semi-Urban,Rejected,Yes
+LN0209,52,Female,Married,0,Graduate,Salaried,354249,583571,60,C,Semi-Urban,Approved,No
+LN0210,24,Male,Single,0,Not Graduate,Salaried,1534742,915139,24,B,Rural,Rejected,Yes
+LN0211,31,Female,Single,0,Not Graduate,Self-Employed,1879161,1301703,60,C,Urban,Rejected,No
+LN0212,37,Male,Married,0,Not Graduate,Self-Employed,1238199,1240631,72,D,Semi-Urban,Approved,Yes
+LN0213,58,Male,Single,2,Graduate,Salaried,860902,854565,36,A,Semi-Urban,Rejected,Yes
+LN0214,44,Male,Married,3+,Not Graduate,Salaried,1470660,575069,36,B,Rural,Rejected,No
+LN0215,25,Female,Married,1,Not Graduate,Salaried,1738112,164586,36,D,Rural,Rejected,No
+LN0216,54,Female,Married,0,Graduate,Salaried,1309004,339768,60,D,Semi-Urban,Rejected,Yes
+LN0217,26,Female,Single,2,Not Graduate,Self-Employed,1926676,581111,48,D,Urban,Rejected,No
+LN0218,42,Female,Married,2,Not Graduate,Salaried,1570073,592777,24,C,Urban,Rejected,No
+LN0219,31,Female,Married,2,Not Graduate,Salaried,1885996,1086059,36,A,Semi-Urban,Rejected,No
+LN0220,36,Female,Married,1,Graduate,Salaried,1436180,221033,72,D,Rural,Rejected,Yes
+LN0221,53,Female,Single,0,Graduate,Salaried,740340,1389838,72,A,Semi-Urban,Approved,No
+LN0222,29,Female,Single,3+,Graduate,Self-Employed,1349265,1198993,36,C,Semi-Urban,Approved,No
+LN0223,26,Female,Married,3+,Graduate,Salaried,902436,1180392,36,D,Rural,Rejected,No
+LN0224,36,Male,Single,2,Not Graduate,Salaried,646636,325709,24,C,Semi-Urban,Rejected,Yes
+LN0225,49,Female,Single,1,Graduate,Self-Employed,856031,224023,36,C,Semi-Urban,Approved,No
+LN0226,23,Female,Single,1,Graduate,Self-Employed,462307,927611,24,A,Semi-Urban,Rejected,Yes
+LN0227,40,Female,Single,1,Not Graduate,Self-Employed,1552144,597936,72,D,Rural,Rejected,No
+LN0228,56,Female,Single,3+,Not Graduate,Salaried,1751330,493945,36,C,Urban,Approved,Yes
+LN0229,39,Female,Single,2,Not Graduate,Salaried,1171248,1140547,60,D,Urban,Approved,No
+LN0230,46,Female,Single,0,Graduate,Self-Employed,663547,68658,60,A,Rural,Approved,No
+LN0231,23,Female,Single,3+,Graduate,Self-Employed,603850,71253,72,C,Urban,Rejected,Yes
+LN0232,39,Female,Single,2,Graduate,Self-Employed,1384446,229635,24,A,Semi-Urban,Rejected,Yes
+LN0233,40,Female,Single,2,Not Graduate,Self-Employed,1533140,207462,60,D,Urban,Approved,Yes
+LN0234,52,Female,Married,0,Not Graduate,Self-Employed,710259,1449384,24,D,Semi-Urban,Approved,No
+LN0235,27,Female,Married,0,Graduate,Self-Employed,1893439,260097,60,A,Urban,Rejected,No
+LN0236,61,Male,Single,0,Not Graduate,Salaried,1540020,678138,60,B,Rural,Approved,No
+LN0237,53,Male,Married,1,Not Graduate,Salaried,1259325,1000162,24,C,Urban,Rejected,No
+LN0238,60,Female,Married,0,Not Graduate,Salaried,828419,712212,48,D,Urban,Rejected,Yes
+LN0239,59,Female,Single,2,Graduate,Self-Employed,1929057,570498,60,D,Urban,Approved,No
+LN0240,38,Male,Single,0,Not Graduate,Self-Employed,1548207,1324634,36,C,Rural,Approved,No
+LN0241,60,Female,Single,2,Not Graduate,Self-Employed,425019,707911,72,A,Urban,Rejected,No
+LN0242,21,Male,Married,3+,Graduate,Self-Employed,1675153,908379,48,A,Rural,Approved,No
+LN0243,31,Male,Married,1,Graduate,Self-Employed,797218,1278807,24,A,Semi-Urban,Approved,No
+LN0244,48,Male,Single,3+,Not Graduate,Self-Employed,1917992,172775,48,B,Urban,Approved,No
+LN0245,45,Male,Single,3+,Not Graduate,Salaried,1539100,1019211,12,B,Rural,Approved,No
+LN0246,43,Male,Single,2,Graduate,Salaried,1017052,727160,12,D,Rural,Rejected,Yes
+LN0247,51,Female,Married,3+,Graduate,Self-Employed,1505129,369972,60,A,Urban,Rejected,No
+LN0248,50,Male,Married,2,Not Graduate,Salaried,1697108,1360292,60,C,Semi-Urban,Rejected,No
+LN0249,62,Female,Married,0,Not Graduate,Self-Employed,919401,1499031,36,D,Rural,Rejected,No
+LN0250,55,Female,Married,0,Not Graduate,Salaried,1628080,318854,72,C,Urban,Approved,No
+LN0251,27,Male,Single,2,Not Graduate,Self-Employed,1301928,464600,48,D,Semi-Urban,Approved,Yes
+LN0252,36,Male,Single,0,Graduate,Self-Employed,624127,221918,12,B,Rural,Rejected,Yes
+LN0253,46,Female,Single,1,Not Graduate,Salaried,1412432,269055,60,D,Rural,Rejected,Yes
+LN0254,22,Male,Single,3+,Not Graduate,Salaried,203191,1398711,72,B,Semi-Urban,Approved,Yes
+LN0255,21,Male,Married,1,Graduate,Self-Employed,828864,784417,48,D,Semi-Urban,Rejected,Yes
+LN0256,32,Female,Married,3+,Not Graduate,Self-Employed,1444289,1080697,60,A,Urban,Rejected,Yes
+LN0257,25,Female,Single,0,Graduate,Salaried,642939,1498763,60,C,Urban,Approved,No
+LN0258,57,Male,Single,1,Not Graduate,Salaried,1252207,472355,12,A,Rural,Rejected,Yes
+LN0259,52,Female,Married,0,Not Graduate,Self-Employed,1385820,921877,12,D,Semi-Urban,Approved,Yes
+LN0260,29,Male,Single,3+,Graduate,Salaried,504224,1306715,60,D,Semi-Urban,Approved,No
+LN0261,61,Male,Married,2,Graduate,Self-Employed,420169,130257,24,D,Semi-Urban,Rejected,Yes
+LN0262,55,Male,Single,2,Not Graduate,Self-Employed,814641,874143,60,B,Rural,Approved,No
+LN0263,39,Female,Single,1,Not Graduate,Self-Employed,1662073,1105106,72,C,Semi-Urban,Rejected,No
+LN0264,36,Female,Single,0,Not Graduate,Self-Employed,752959,1371836,60,C,Semi-Urban,Approved,Yes
+LN0265,23,Female,Single,0,Graduate,Salaried,1895675,967786,36,D,Rural,Rejected,No
+LN0266,40,Female,Single,1,Not Graduate,Salaried,1955367,260545,36,D,Urban,Rejected,Yes
+LN0267,44,Female,Single,2,Graduate,Salaried,421972,578423,36,B,Urban,Rejected,Yes
+LN0268,53,Male,Single,3+,Graduate,Salaried,1638454,974133,24,A,Rural,Approved,No
+LN0269,44,Male,Married,1,Not Graduate,Salaried,948321,421616,24,A,Semi-Urban,Approved,No
+LN0270,31,Male,Married,3+,Graduate,Salaried,708679,825158,60,C,Rural,Rejected,Yes
+LN0271,28,Male,Married,2,Not Graduate,Salaried,621818,663375,36,B,Urban,Approved,No
+LN0272,56,Female,Married,0,Not Graduate,Self-Employed,1992725,966383,24,D,Urban,Rejected,No
+LN0273,58,Male,Married,2,Not Graduate,Salaried,1927408,329215,12,C,Rural,Rejected,Yes
+LN0274,60,Female,Single,1,Not Graduate,Salaried,904590,1118650,60,B,Rural,Approved,Yes
+LN0275,40,Male,Single,0,Not Graduate,Self-Employed,1191120,796084,72,A,Urban,Rejected,No
+LN0276,55,Female,Married,1,Graduate,Salaried,1255675,1138477,48,B,Rural,Approved,Yes
+LN0277,45,Female,Single,1,Graduate,Salaried,1667223,323349,60,A,Urban,Rejected,Yes
+LN0278,55,Male,Married,2,Not Graduate,Self-Employed,780780,445807,48,B,Rural,Approved,Yes
+LN0279,45,Male,Married,1,Not Graduate,Salaried,1345298,1441405,36,C,Rural,Rejected,Yes
+LN0280,49,Male,Single,2,Graduate,Salaried,1165188,1471174,48,A,Rural,Rejected,Yes
+LN0281,38,Male,Single,0,Graduate,Salaried,754399,1466207,36,C,Urban,Approved,Yes
+LN0282,38,Female,Single,2,Graduate,Self-Employed,263936,628688,12,C,Rural,Rejected,Yes
+LN0283,22,Male,Married,0,Graduate,Salaried,1926550,1254798,48,A,Urban,Rejected,No
+LN0284,55,Male,Single,2,Not Graduate,Salaried,423332,81852,60,A,Urban,Approved,Yes
+LN0285,36,Female,Married,3+,Not Graduate,Self-Employed,925836,1010374,36,D,Rural,Rejected,No
+LN0286,61,Male,Married,3+,Graduate,Salaried,1571640,427501,60,D,Rural,Approved,No
+LN0287,56,Male,Married,1,Not Graduate,Self-Employed,687510,1155057,24,D,Urban,Rejected,No
+LN0288,53,Male,Single,2,Graduate,Self-Employed,263530,83691,36,C,Urban,Approved,Yes
+LN0289,24,Male,Single,2,Not Graduate,Salaried,1678016,444341,48,C,Semi-Urban,Rejected,Yes
+LN0290,53,Male,Married,0,Graduate,Self-Employed,1518508,1296713,36,D,Urban,Rejected,No
+LN0291,34,Female,Single,1,Not Graduate,Self-Employed,1800946,1096238,60,C,Semi-Urban,Rejected,Yes
+LN0292,41,Male,Single,2,Graduate,Salaried,1862434,582726,12,C,Semi-Urban,Approved,No
+LN0293,40,Male,Single,1,Graduate,Self-Employed,1873879,1499796,36,A,Semi-Urban,Approved,Yes
+LN0294,28,Male,Married,3+,Not Graduate,Self-Employed,1980752,846184,48,A,Rural,Approved,Yes
+LN0295,27,Male,Married,2,Graduate,Salaried,1396179,1154002,24,C,Rural,Approved,No
+LN0296,23,Male,Single,2,Not Graduate,Salaried,1074772,289968,72,D,Urban,Rejected,No
+LN0297,37,Female,Married,1,Not Graduate,Salaried,1867303,338963,12,B,Semi-Urban,Rejected,No
+LN0298,53,Male,Single,2,Graduate,Self-Employed,1162361,545384,24,D,Rural,Approved,Yes
+LN0299,32,Female,Single,1,Not Graduate,Salaried,341214,928483,36,B,Rural,Approved,No
+LN0300,42,Female,Single,2,Not Graduate,Self-Employed,839341,571121,60,D,Rural,Approved,Yes
+LN0301,42,Male,Single,0,Not Graduate,Self-Employed,1821219,1253865,60,A,Rural,Rejected,Yes
+LN0302,50,Male,Married,1,Not Graduate,Self-Employed,603082,1360077,48,C,Rural,Approved,Yes
+LN0303,58,Male,Married,2,Not Graduate,Self-Employed,401139,569165,60,C,Semi-Urban,Approved,No
+LN0304,58,Male,Married,3+,Graduate,Self-Employed,1228494,269780,12,A,Semi-Urban,Rejected,No
+LN0305,28,Female,Single,2,Not Graduate,Self-Employed,1221318,1393714,60,B,Semi-Urban,Rejected,No
+LN0306,47,Male,Single,3+,Not Graduate,Self-Employed,849714,1196332,48,B,Semi-Urban,Approved,Yes
+LN0307,47,Male,Single,3+,Not Graduate,Salaried,788315,492632,72,B,Urban,Rejected,Yes
+LN0308,54,Male,Married,0,Not Graduate,Salaried,1699698,977091,36,A,Semi-Urban,Approved,No
+LN0309,41,Male,Single,1,Not Graduate,Self-Employed,1407786,1077557,36,B,Rural,Rejected,Yes
+LN0310,50,Male,Married,2,Graduate,Self-Employed,292601,1194241,60,A,Semi-Urban,Approved,Yes
+LN0311,53,Male,Married,0,Not Graduate,Salaried,1278532,1260578,24,D,Urban,Approved,No
+LN0312,48,Female,Married,2,Graduate,Self-Employed,1486916,1360267,36,D,Rural,Approved,No
+LN0313,53,Female,Married,3+,Graduate,Salaried,829085,1220808,72,A,Semi-Urban,Approved,No
+LN0314,25,Male,Married,1,Graduate,Salaried,1112735,1341627,60,C,Semi-Urban,Rejected,Yes
+LN0315,39,Male,Married,2,Graduate,Salaried,1718087,1256123,48,D,Semi-Urban,Rejected,Yes
+LN0316,24,Male,Single,2,Not Graduate,Self-Employed,1909375,462104,72,B,Rural,Rejected,Yes
+LN0317,55,Female,Single,3+,Graduate,Self-Employed,621486,358449,60,A,Rural,Rejected,Yes
+LN0318,37,Male,Married,2,Graduate,Salaried,803103,583634,72,B,Urban,Approved,Yes
+LN0319,64,Female,Married,2,Not Graduate,Salaried,239279,1111339,36,B,Rural,Approved,No
+LN0320,48,Male,Single,3+,Not Graduate,Salaried,571931,240237,48,C,Rural,Rejected,Yes
+LN0321,50,Male,Married,0,Not Graduate,Salaried,348702,906047,60,B,Semi-Urban,Rejected,Yes
+LN0322,49,Male,Married,3+,Graduate,Salaried,1309639,479332,12,C,Rural,Rejected,Yes
+LN0323,26,Male,Single,0,Not Graduate,Self-Employed,973887,695275,48,D,Semi-Urban,Rejected,No
+LN0324,55,Female,Married,1,Not Graduate,Salaried,1502887,1315399,12,A,Semi-Urban,Rejected,No
+LN0325,61,Female,Married,0,Graduate,Self-Employed,852184,1189929,72,B,Rural,Approved,No
+LN0326,57,Male,Married,0,Not Graduate,Salaried,1939080,271373,24,A,Urban,Approved,Yes
+LN0327,44,Male,Single,1,Not Graduate,Self-Employed,645377,1456368,48,B,Urban,Approved,No
+LN0328,49,Female,Single,0,Not Graduate,Self-Employed,1738510,599844,72,A,Rural,Rejected,No
+LN0329,51,Female,Single,3+,Not Graduate,Self-Employed,719089,895474,12,B,Urban,Rejected,No
+LN0330,55,Female,Married,0,Graduate,Self-Employed,946434,421233,36,B,Semi-Urban,Rejected,Yes
+LN0331,53,Female,Married,1,Not Graduate,Self-Employed,1457008,1274744,36,B,Semi-Urban,Rejected,No
+LN0332,41,Male,Single,3+,Not Graduate,Self-Employed,382051,718590,24,B,Rural,Approved,Yes
+LN0333,52,Female,Married,1,Graduate,Salaried,1346237,1300617,48,B,Urban,Approved,Yes
+LN0334,43,Male,Married,1,Not Graduate,Self-Employed,1143693,83866,48,B,Urban,Rejected,No
+LN0335,53,Female,Married,2,Graduate,Salaried,1946536,1203976,48,B,Semi-Urban,Approved,Yes
+LN0336,23,Female,Married,2,Not Graduate,Self-Employed,1701352,1437695,72,B,Rural,Approved,No
+LN0337,38,Female,Married,1,Graduate,Self-Employed,1719832,485071,24,B,Urban,Rejected,Yes
+LN0338,45,Female,Single,1,Graduate,Salaried,323257,1442277,48,A,Rural,Rejected,No
+LN0339,62,Female,Married,1,Graduate,Self-Employed,1179062,1236064,72,C,Urban,Rejected,No
+LN0340,51,Male,Single,2,Graduate,Salaried,1517630,646804,36,B,Semi-Urban,Rejected,No
+LN0341,23,Male,Married,2,Not Graduate,Salaried,1175217,236987,12,C,Semi-Urban,Rejected,Yes
+LN0342,60,Female,Single,0,Graduate,Salaried,1807828,461274,72,B,Rural,Rejected,No
+LN0343,44,Female,Married,0,Not Graduate,Salaried,1203171,483934,36,B,Semi-Urban,Approved,Yes
+LN0344,52,Male,Single,1,Graduate,Self-Employed,1667019,344746,36,A,Urban,Approved,No
+LN0345,42,Female,Married,3+,Graduate,Self-Employed,1123482,1287715,12,D,Semi-Urban,Rejected,Yes
+LN0346,43,Female,Single,3+,Graduate,Salaried,1003585,208588,36,D,Rural,Approved,Yes
+LN0347,22,Male,Married,2,Not Graduate,Self-Employed,1570485,1304311,24,A,Rural,Rejected,No
+LN0348,47,Female,Single,2,Graduate,Self-Employed,954444,1360875,12,C,Rural,Rejected,No
+LN0349,62,Female,Married,2,Not Graduate,Salaried,1881076,173950,36,D,Urban,Rejected,No
+LN0350,22,Male,Single,1,Not Graduate,Self-Employed,1811935,379638,60,A,Urban,Rejected,No
+LN0351,46,Male,Single,3+,Not Graduate,Salaried,312990,650517,72,A,Urban,Approved,No
+LN0352,37,Male,Married,0,Not Graduate,Salaried,1318095,1203224,36,D,Urban,Rejected,Yes
+LN0353,60,Female,Married,1,Not Graduate,Self-Employed,1258079,88547,24,C,Urban,Approved,No
+LN0354,53,Male,Single,0,Not Graduate,Self-Employed,1440351,603083,48,A,Semi-Urban,Rejected,No
+LN0355,29,Male,Married,0,Not Graduate,Self-Employed,1181883,236368,36,B,Urban,Rejected,Yes
+LN0356,63,Male,Single,1,Not Graduate,Salaried,1868321,595735,48,C,Urban,Rejected,No
+LN0357,59,Male,Single,0,Not Graduate,Salaried,913226,1354766,60,C,Semi-Urban,Approved,No
+LN0358,49,Male,Single,3+,Graduate,Self-Employed,1396553,256402,36,D,Urban,Rejected,Yes
+LN0359,62,Male,Married,0,Graduate,Self-Employed,1818702,1350995,12,D,Rural,Rejected,No
+LN0360,46,Female,Single,3+,Graduate,Self-Employed,1700071,804105,48,B,Urban,Rejected,No
+LN0361,55,Female,Single,3+,Graduate,Self-Employed,1862353,899710,60,A,Urban,Approved,No
+LN0362,45,Male,Married,3+,Graduate,Salaried,226806,629365,12,D,Rural,Approved,Yes
+LN0363,44,Male,Married,2,Not Graduate,Self-Employed,1424648,162782,12,D,Rural,Approved,No
+LN0364,33,Male,Married,0,Not Graduate,Salaried,615384,1089550,12,C,Rural,Rejected,Yes
+LN0365,27,Female,Married,1,Not Graduate,Salaried,270119,677220,12,D,Rural,Approved,No
+LN0366,56,Female,Single,1,Not Graduate,Self-Employed,1433741,1061316,36,D,Urban,Rejected,Yes
+LN0367,40,Female,Single,0,Not Graduate,Self-Employed,829720,493316,72,D,Rural,Approved,No
+LN0368,21,Female,Single,2,Not Graduate,Self-Employed,670641,1470589,36,D,Rural,Approved,Yes
+LN0369,28,Female,Single,2,Not Graduate,Salaried,1079381,1409501,36,C,Semi-Urban,Rejected,Yes
+LN0370,36,Female,Married,3+,Graduate,Self-Employed,1719603,1284915,60,B,Rural,Approved,Yes
+LN0371,34,Female,Single,0,Graduate,Self-Employed,607507,525595,60,B,Rural,Rejected,Yes
+LN0372,32,Female,Single,0,Graduate,Salaried,1950740,1197272,72,A,Semi-Urban,Rejected,Yes
+LN0373,43,Female,Married,1,Graduate,Self-Employed,1063403,100939,60,D,Semi-Urban,Approved,Yes
+LN0374,35,Male,Single,0,Not Graduate,Salaried,1079903,191521,24,C,Urban,Rejected,No
+LN0375,48,Male,Single,2,Not Graduate,Self-Employed,1085421,923093,72,A,Semi-Urban,Rejected,No
+LN0376,54,Male,Single,0,Not Graduate,Salaried,284080,1433674,60,A,Urban,Approved,Yes
+LN0377,22,Male,Single,1,Graduate,Self-Employed,1501367,859178,72,B,Semi-Urban,Approved,Yes
+LN0378,52,Female,Single,3+,Not Graduate,Self-Employed,1178836,633098,36,C,Semi-Urban,Rejected,Yes
+LN0379,43,Female,Single,1,Not Graduate,Salaried,1326370,692650,36,C,Urban,Approved,Yes
+LN0380,42,Male,Married,1,Not Graduate,Salaried,492985,526513,72,C,Semi-Urban,Rejected,No
+LN0381,45,Female,Married,3+,Graduate,Self-Employed,324447,1244871,24,B,Urban,Rejected,Yes
+LN0382,42,Male,Single,1,Not Graduate,Salaried,320029,515453,24,B,Semi-Urban,Approved,No
+LN0383,42,Female,Single,1,Graduate,Salaried,379830,771037,72,B,Rural,Approved,No
+LN0384,62,Male,Married,0,Graduate,Salaried,1756518,1363379,60,B,Semi-Urban,Approved,Yes
+LN0385,26,Female,Single,0,Graduate,Salaried,1586992,1185092,48,B,Urban,Approved,Yes
+LN0386,35,Female,Single,3+,Graduate,Self-Employed,761931,1173143,24,D,Semi-Urban,Rejected,No
+LN0387,63,Male,Single,0,Not Graduate,Self-Employed,506094,176498,12,D,Urban,Rejected,No
+LN0388,57,Female,Married,0,Graduate,Salaried,1436497,752098,36,C,Urban,Approved,Yes
+LN0389,53,Male,Single,1,Graduate,Salaried,1611220,1071469,72,A,Rural,Approved,Yes
+LN0390,28,Male,Married,2,Not Graduate,Salaried,883404,514894,12,C,Rural,Rejected,Yes
+LN0391,64,Male,Single,0,Not Graduate,Salaried,1747261,334154,72,A,Urban,Rejected,No
+LN0392,64,Male,Married,2,Graduate,Self-Employed,587732,845219,36,B,Semi-Urban,Rejected,No
+LN0393,25,Female,Married,0,Not Graduate,Self-Employed,1788861,189544,36,A,Urban,Rejected,Yes
+LN0394,59,Female,Single,0,Graduate,Salaried,1066183,296183,24,C,Urban,Approved,No
+LN0395,24,Female,Married,3+,Graduate,Salaried,822893,728743,24,C,Semi-Urban,Rejected,No
+LN0396,26,Male,Single,3+,Graduate,Salaried,1041965,1422429,12,A,Semi-Urban,Rejected,Yes
+LN0397,52,Female,Married,3+,Graduate,Self-Employed,544710,513001,72,D,Semi-Urban,Approved,Yes
+LN0398,50,Male,Single,2,Not Graduate,Salaried,1998806,1133094,36,B,Semi-Urban,Rejected,No
+LN0399,55,Female,Single,1,Graduate,Self-Employed,1918507,103909,12,B,Urban,Rejected,No
+LN0400,60,Female,Married,0,Not Graduate,Salaried,832543,774984,48,C,Urban,Approved,Yes
+LN0401,36,Female,Single,0,Not Graduate,Self-Employed,984586,1020834,12,D,Rural,Approved,Yes
+LN0402,33,Male,Single,0,Not Graduate,Salaried,1211967,565693,60,A,Urban,Approved,Yes
+LN0403,62,Female,Married,2,Not Graduate,Self-Employed,651157,589570,12,B,Semi-Urban,Rejected,Yes
+LN0404,50,Female,Single,3+,Graduate,Salaried,1306581,289017,60,D,Rural,Rejected,Yes
+LN0405,39,Male,Single,1,Not Graduate,Salaried,1465898,464994,60,B,Semi-Urban,Approved,No
+LN0406,37,Female,Married,2,Graduate,Salaried,1438360,991768,60,D,Urban,Approved,No
+LN0407,39,Male,Married,3+,Not Graduate,Self-Employed,1816405,502891,48,D,Rural,Rejected,No
+LN0408,48,Female,Single,2,Not Graduate,Salaried,223387,1126941,12,C,Semi-Urban,Approved,No
+LN0409,46,Male,Single,1,Graduate,Self-Employed,1080412,515982,12,B,Rural,Approved,Yes
+LN0410,57,Male,Married,3+,Graduate,Self-Employed,1952844,491416,48,A,Rural,Approved,Yes
+LN0411,46,Female,Married,2,Graduate,Salaried,1334033,323146,36,C,Urban,Rejected,Yes
+LN0412,43,Male,Single,1,Not Graduate,Salaried,344129,1374667,24,C,Semi-Urban,Rejected,No
+LN0413,29,Male,Married,0,Not Graduate,Salaried,1836892,1308870,12,A,Rural,Rejected,No
+LN0414,32,Male,Single,1,Graduate,Self-Employed,1228308,1214795,24,C,Rural,Rejected,No
+LN0415,21,Male,Single,0,Graduate,Salaried,1892110,1439330,72,D,Semi-Urban,Rejected,Yes
+LN0416,21,Male,Single,2,Graduate,Self-Employed,517875,888574,72,D,Rural,Rejected,No
+LN0417,54,Male,Single,3+,Graduate,Self-Employed,1928794,630595,48,B,Rural,Approved,Yes
+LN0418,52,Female,Single,3+,Not Graduate,Salaried,1428337,1234141,72,B,Rural,Rejected,Yes
+LN0419,45,Male,Married,2,Graduate,Salaried,768926,829383,72,A,Semi-Urban,Rejected,Yes
+LN0420,60,Male,Married,3+,Graduate,Salaried,684814,362229,36,B,Semi-Urban,Approved,Yes
+LN0421,21,Female,Married,3+,Graduate,Salaried,1426134,608516,36,D,Semi-Urban,Rejected,Yes
+LN0422,36,Female,Married,0,Graduate,Salaried,1793431,785036,36,A,Semi-Urban,Rejected,Yes
+LN0423,59,Female,Single,2,Not Graduate,Salaried,622955,617760,72,A,Urban,Approved,No
+LN0424,25,Female,Single,1,Graduate,Self-Employed,1830668,885869,48,B,Rural,Approved,Yes
+LN0425,42,Female,Single,0,Not Graduate,Self-Employed,1619541,1016920,60,D,Semi-Urban,Approved,Yes
+LN0426,49,Female,Single,2,Graduate,Self-Employed,1252330,896143,60,A,Rural,Rejected,No
+LN0427,23,Female,Married,0,Graduate,Salaried,1799908,1236464,24,D,Rural,Approved,Yes
+LN0428,32,Male,Single,1,Not Graduate,Self-Employed,267260,127175,60,D,Urban,Rejected,No
+LN0429,46,Male,Single,1,Graduate,Self-Employed,1315488,638595,60,D,Semi-Urban,Rejected,No
+LN0430,36,Female,Married,2,Not Graduate,Self-Employed,456695,1407453,36,B,Semi-Urban,Rejected,No
+LN0431,57,Male,Married,1,Not Graduate,Self-Employed,732994,964634,36,C,Rural,Rejected,Yes
+LN0432,42,Male,Married,0,Graduate,Self-Employed,995326,145028,72,C,Semi-Urban,Approved,Yes
+LN0433,49,Male,Married,1,Not Graduate,Salaried,546130,1240888,24,A,Rural,Approved,No
+LN0434,34,Female,Single,0,Not Graduate,Salaried,1068374,541450,12,D,Rural,Rejected,Yes
+LN0435,48,Female,Single,0,Not Graduate,Self-Employed,1955548,1191069,24,B,Urban,Approved,Yes
+LN0436,25,Male,Married,1,Not Graduate,Self-Employed,229725,175149,24,D,Urban,Rejected,No
+LN0437,50,Female,Single,2,Not Graduate,Self-Employed,1385574,803704,48,D,Urban,Rejected,No
+LN0438,25,Male,Single,3+,Not Graduate,Salaried,304555,1301011,72,B,Rural,Rejected,Yes
+LN0439,32,Male,Single,1,Not Graduate,Salaried,461486,213834,48,C,Semi-Urban,Approved,No
+LN0440,36,Male,Married,0,Not Graduate,Self-Employed,995928,320403,24,D,Urban,Rejected,No
+LN0441,46,Male,Single,0,Graduate,Salaried,1829311,1279787,24,D,Semi-Urban,Rejected,No
+LN0442,46,Female,Married,1,Graduate,Salaried,1088036,965207,24,C,Urban,Approved,Yes
+LN0443,41,Female,Single,2,Not Graduate,Self-Employed,1933742,1375569,60,B,Urban,Approved,Yes
+LN0444,59,Female,Single,2,Graduate,Salaried,1074631,1442488,48,A,Rural,Approved,Yes
+LN0445,56,Male,Single,0,Not Graduate,Salaried,765609,1466828,24,C,Urban,Approved,No
+LN0446,53,Female,Married,0,Not Graduate,Self-Employed,433103,367013,36,A,Urban,Rejected,Yes
+LN0447,50,Male,Single,2,Graduate,Salaried,1182599,963320,72,A,Rural,Approved,No
+LN0448,57,Female,Married,3+,Not Graduate,Salaried,615872,1161671,72,C,Semi-Urban,Rejected,Yes
+LN0449,43,Male,Married,1,Not Graduate,Self-Employed,255147,1216462,36,D,Urban,Approved,Yes
+LN0450,30,Male,Married,0,Not Graduate,Salaried,1864260,907342,72,A,Rural,Approved,No
+LN0451,25,Male,Single,0,Not Graduate,Salaried,642882,335711,60,A,Urban,Approved,Yes
+LN0452,56,Female,Single,2,Graduate,Self-Employed,675584,1133868,60,B,Rural,Approved,No
+LN0453,54,Female,Single,1,Not Graduate,Self-Employed,500931,1173389,12,D,Semi-Urban,Approved,Yes
+LN0454,51,Female,Single,2,Not Graduate,Self-Employed,444839,671424,12,A,Semi-Urban,Approved,Yes
+LN0455,30,Female,Married,1,Not Graduate,Salaried,656162,625919,12,B,Rural,Rejected,No
+LN0456,39,Male,Married,1,Graduate,Self-Employed,746015,59885,72,D,Rural,Approved,No
+LN0457,52,Female,Married,1,Not Graduate,Salaried,1343657,1283954,60,C,Rural,Approved,No
+LN0458,21,Female,Single,0,Graduate,Self-Employed,1633441,902746,60,C,Semi-Urban,Approved,Yes
+LN0459,25,Male,Married,3+,Graduate,Salaried,1840920,1425807,60,B,Urban,Approved,Yes
+LN0460,24,Male,Single,2,Not Graduate,Self-Employed,1907017,472381,36,C,Semi-Urban,Rejected,Yes
+LN0461,36,Male,Married,3+,Not Graduate,Self-Employed,889556,1026433,60,A,Rural,Approved,No
+LN0462,44,Female,Single,2,Graduate,Self-Employed,892095,510244,36,D,Rural,Approved,No
+LN0463,36,Male,Single,1,Not Graduate,Self-Employed,960109,624100,12,A,Semi-Urban,Approved,No
+LN0464,22,Male,Married,0,Graduate,Salaried,1328678,755860,12,A,Rural,Approved,Yes
+LN0465,48,Male,Married,3+,Graduate,Self-Employed,1197082,1419363,72,C,Semi-Urban,Rejected,Yes
+LN0466,52,Female,Married,0,Not Graduate,Self-Employed,356570,94900,12,A,Rural,Approved,No
+LN0467,47,Male,Married,2,Not Graduate,Salaried,1849729,451067,72,C,Urban,Rejected,Yes
+LN0468,40,Female,Single,0,Graduate,Self-Employed,1935592,852720,24,D,Urban,Approved,No
+LN0469,44,Female,Married,0,Graduate,Salaried,1316271,1171268,24,D,Rural,Rejected,Yes
+LN0470,32,Male,Married,3+,Graduate,Self-Employed,631116,510796,48,A,Semi-Urban,Rejected,Yes
+LN0471,55,Male,Married,1,Graduate,Self-Employed,721608,1499160,72,B,Urban,Approved,No
+LN0472,53,Female,Single,0,Not Graduate,Self-Employed,317235,1144979,48,C,Semi-Urban,Approved,Yes
+LN0473,53,Male,Single,1,Not Graduate,Salaried,1202403,845600,48,C,Rural,Rejected,Yes
+LN0474,63,Male,Married,2,Not Graduate,Self-Employed,1689493,1054001,24,A,Semi-Urban,Rejected,No
+LN0475,57,Female,Single,0,Not Graduate,Self-Employed,1881641,362023,72,C,Urban,Approved,No
+LN0476,32,Female,Married,3+,Not Graduate,Self-Employed,1267609,1158447,24,C,Semi-Urban,Rejected,Yes
+LN0477,23,Male,Single,2,Graduate,Salaried,716409,1079127,48,B,Semi-Urban,Rejected,No
+LN0478,21,Female,Single,2,Not Graduate,Salaried,866165,541862,72,B,Rural,Rejected,Yes
+LN0479,53,Male,Single,3+,Not Graduate,Self-Employed,891211,1130750,48,A,Rural,Approved,No
+LN0480,60,Male,Single,0,Not Graduate,Salaried,751120,805111,60,B,Rural,Rejected,Yes
+LN0481,30,Male,Married,0,Not Graduate,Self-Employed,1443085,273563,72,A,Urban,Rejected,Yes
+LN0482,63,Female,Married,2,Not Graduate,Self-Employed,1626445,187653,72,D,Urban,Rejected,No
+LN0483,64,Male,Married,0,Graduate,Self-Employed,345016,160155,48,A,Rural,Approved,Yes
+LN0484,49,Male,Single,1,Graduate,Self-Employed,482017,383997,60,D,Rural,Approved,Yes
+LN0485,33,Male,Married,3+,Graduate,Self-Employed,1813236,1410398,36,A,Urban,Rejected,No
+LN0486,32,Female,Married,1,Not Graduate,Self-Employed,1338040,1226371,24,C,Urban,Approved,No
+LN0487,51,Female,Married,0,Graduate,Self-Employed,870739,138668,48,B,Urban,Rejected,Yes
+LN0488,22,Female,Single,2,Graduate,Salaried,1365898,787685,72,D,Urban,Approved,No
+LN0489,55,Female,Single,3+,Not Graduate,Salaried,1940687,719927,24,A,Rural,Approved,No
+LN0490,43,Female,Single,0,Not Graduate,Salaried,945182,1029448,24,B,Urban,Rejected,Yes
+LN0491,37,Male,Married,0,Not Graduate,Salaried,647557,603091,24,A,Rural,Approved,Yes
+LN0492,46,Female,Married,2,Graduate,Salaried,998519,723590,36,B,Semi-Urban,Approved,No
+LN0493,28,Female,Married,2,Graduate,Salaried,616978,723222,12,B,Semi-Urban,Approved,No
+LN0494,49,Female,Single,1,Not Graduate,Salaried,1233316,998763,48,A,Urban,Rejected,No
+LN0495,46,Male,Single,3+,Not Graduate,Self-Employed,1069049,1328723,12,D,Semi-Urban,Approved,Yes
+LN0496,30,Female,Married,3+,Graduate,Self-Employed,824771,1054949,12,D,Semi-Urban,Approved,Yes
+LN0497,46,Female,Single,2,Graduate,Self-Employed,723886,605083,12,C,Semi-Urban,Rejected,Yes
+LN0498,54,Male,Single,1,Not Graduate,Self-Employed,1782460,320914,24,B,Urban,Approved,Yes
+LN0499,61,Female,Single,3+,Not Graduate,Salaried,1483203,1491985,60,C,Urban,Approved,Yes
